@@ -1,0 +1,89 @@
+#what .items{
+    display: block;
+    padding: 1rem;
+}
+
+#what .items .item{
+    display: flex;
+    text-align: left;
+}
+
+#what .items .item i{
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+@media(max-width:500px){
+    #navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    #navbar .logo{
+        margin-bottom: 0.75rem;
+        text-align: center;
+    }
+    #content .first-content{
+        top: 110px;
+        margin-top: -4rem;
+    }
+
+    #who{
+        display: block;
+    }
+
+    #clients .items img{
+        width: 90%;
+    }
+
+    #contact{
+        display: block;
+    }
+    
+    .first-content h1{
+        font-size: 1.75rem;
+        text-align: justify;
+        margin-top: 4rem;
+    }
+}
+
+@media(max-height:568px){
+   #content .first-content{
+        margin-top: -5rem;
+        top: 140px;
+    }
+
+    .h-heading{
+        font-size: 3rem;
+    }
+
+    .lead{
+        font-size: 1rem;
+    }
+
+    #navbar{
+        display: block;
+    }
+
+    #navbar ul li  {
+        margin-left: -1.9rem;
+        
+    }
+
+    .logo h1{
+        text-align: left;
+    }
+
+    #navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    #navbar .logo{
+        margin-bottom: 0.75rem;
+        text-align: center;
+    }
+
+    #navbar ul li a{
+        margin: 0.8rem;
+    }
+}
